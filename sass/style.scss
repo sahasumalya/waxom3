@@ -24,19 +24,21 @@ header {
   }
   .search{
   position:absolute;
-  right:-10%;
-  top:0.75em;
+  right:4.5em;
+  top:2em;
   margin-top:0%;
   background-color:transparent;
   border-color:transparent;
+  z-index:5;
 }
 .bag{
   position:absolute;
-  right:-6%;
-  top:0.255em;
+  right:7.5em;
+  top:1em;
   margin-top:1%;
   background-color:transparent;
   border-color:transparent;
+  z-index:5;
 }
 
   a{
@@ -338,7 +340,7 @@ height: 53px;
 font-family: Raleway;
 color:  #ffffff;
 font-size: 14px;/* Approximation due to font substitution */
-font-weight: 700;
+font-weight: 1000;
 line-height: 23px;/* Approximation due to font substitution */
 text-align: center;
 }
@@ -349,7 +351,7 @@ text-align: center;
 .item{
 height:auto;
 padding-top:6em;
-padding-bottom:6em;
+padding-bottom:4em;
 .web{
   font-family: Raleway;
 color:  #555555;
@@ -431,7 +433,14 @@ background-color:transparent;
 margin-bottom:0%;
 }
 .row1{
-	
+	display:flex;
+  flex-wrap: wrap;
+}
+.theme{
+  display:table-cell;
+}
+.thm{
+  
 }
 .m{
 	
@@ -471,6 +480,7 @@ background:transparent;
     }
 	}
 button{
+transform:translate(0,15%);
 border-radius: 3px;
 border:0.5px solid transparent;
 background-color:  #998675;
@@ -482,6 +492,7 @@ font-size: 14px;/* Approximation due to font substitution */
 font-weight: 700;
 line-height: 23px;/* Approximation due to font substitution */
 text-align: center;
+vertical-align:center;
 }
 .forget{
 font-family: Montserrat;
@@ -556,14 +567,25 @@ text-align: center;
   padding-bottom:1.5em;
 }
 .picy:hover{
+
   .zoom,.lnk{
     visibility:visible;
+    
   }
     .pisi,.pisi1
     {
     background-color: #362f2d;
 
   
+  }
+  .pisi{
+    color:#c7b299;
+  }
+  .pisi1{
+    color:white;
+  }
+  .pic{
+    filter:contrast(75%);
   }
   .triangle,.trianle1{
     border-bottom: 9px solid #362f2d;
@@ -643,9 +665,12 @@ top:72%;
 
 .list{
   padding-top:1.5em;
+  
   padding-bottom:2em;
   
 }
+
+
 .but{
 font-family: Montserrat;
 color:  #8c8c8c;
@@ -653,11 +678,18 @@ font-size: 14px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 21px;/* Approximation due to font substitution */
 text-align: center;
-padding-left:0.5em;
-padding-right:0.5em;
+padding-left:1.2em;
+padding-right:1.2em;
+padding-top:0.4em;
+padding-bottom:0.4em;
+margin:0%;
 background-color:transparent;
-border-radius: 4px;
+border-radius: 5px;
 border:0.5px solid #efefef;
+}
+.but.all{
+  padding-left:1.75em;
+  padding-right:1.75em;
 }
  @media only screen and (max-width: 425px) {
     .but{
@@ -668,17 +700,20 @@ border:0.5px solid #efefef;
 
 .buti
 {
-  border-radius: 3px;
-  border:0.5px solid #efefef;
+  border-radius: 4px;
+  box-shadow:0px 2px 1px  #3a2613;
+
+  border:0.5px solid transparent;
 background-color:  #998675;
 width: 170px;
 height: 50px;
 font-family: Raleway;
 color:  #ffffff;
 font-size: 14px;/* Approximation due to font substitution */
-font-weight: 700;
+font-weight: 1000;
 line-height: 23px;/* Approximation due to font substitution */
 text-align: center;
+font-style:bold;
 }
 .row12{
   padding-top:2em;
@@ -688,7 +723,7 @@ text-align: center;
  li{
 
 display:inline;
-padding:0.5em;
+padding:0.25em;
 
  }
  @media only screen and (max-width: 425px) {
@@ -717,15 +752,24 @@ padding:0.5em;
 	background-size:cover;
 	max-width: 100%;
   height:auto;
-  padding-bottom:10em;
+  padding-bottom:13em;
     .v{
    
+    }
+    .tm{
+      font-family: Montserrat;
+color:  #c7b299;
+font-size: 14px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 24px;/* Approximation due to font substitution */
+text-align: center;
+padding-top:1.3em;
     }
     .wax{
     padding-top:0%;
     }
     .vid{
-    padding-top:15.5em;
+    padding-top:14em;
     margin:auto;
     }
     .waxom{
@@ -750,17 +794,43 @@ text-align: center;
 .phone{
 background-color:  #fbfaf8;
 padding-top:5em;
+height:auto;
 	.pn{
 	
 	
 	}
+  .row1{
+    display:flex;
+    flex-wrap: wrap;
+
+  }
+  .spcl{
+    display:table-cell;
+    vertical-align:center;
+  }
+  .spsl{
+    
+  }
+  .tes{
+    height:auto;
+    margin:0%;
+    transform: translate(0,33.33%);
+    padding:0%;
+  }
+  @media only screen and (max-width: 950px) {
+    .tes{
+      transform:translate(0,0);
+      padding-top:4em;
+      padding-bottom:4em;
+    }
+  }
 	.exel{
 font-family: Raleway;
 color:  #555555;
 font-size: 30px;/* Approximation due to font substitution */
 font-weight: 600;
 text-align: left;
-padding-top:1.5em;
+padding-bottom:0.5em;
 	}
 	.bul{
 font-family: Montserrat;
@@ -769,6 +839,7 @@ font-size: 16px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 28px;/* Approximation due to font substitution */
 text-align: left;
+padding-bottom:0.5em;
 	}
 	.bulet{
 font-family: Montserrat;
@@ -1049,6 +1120,9 @@ margin:0%;
     	background-color: rgba(54,47,45,1);
     	z-index: 3;
     }
+     .an{
+      opacity:0.5;
+     }
 
 
     .txt{
@@ -1074,7 +1148,7 @@ margin:0%;
 	max-width:100%;
     height: auto;
     padding-top:3em;
-    padding-bottom:4em;
+    padding-bottom:10em;
    
     .lol{
     
@@ -1130,13 +1204,18 @@ margin:0%;
 }
 footer{
 	background-color:  #191919;
-  padding-top:2em;
+  padding-top:6.5em;
 	.wax{
     font-family: Raleway;
 color:  #ffffff;
 font-size: 34px;/* Approximation due to font substitution */
 font-weight: 400;
 text-align: left;
+    }
+    ul{
+      list-style:none;
+      padding:0%;
+      margin:0%;
     }
     .logo{
       
@@ -1173,7 +1252,7 @@ font-size: 24px;/* Approximation due to font substitution */
 font-weight: 700;
 text-align: left;
 padding-top:0.5em;
-padding-bottom:0%;
+padding-bottom:0.5em;
 
     }
     .se{
@@ -1205,6 +1284,7 @@ font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
 margin-top:0.125em;
+padding-bottom:1.5em;
     }
     .dash{
 background-color:  #252525;
@@ -1230,6 +1310,7 @@ font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
 margin-top:0.125em;
+padding-bottom:1.5em;
     }
 .tw{
  font-family: Raleway;
@@ -1238,7 +1319,7 @@ font-size: 24px;/* Approximation due to font substitution */
 font-weight: 700;
 text-align: left;
 padding-top:0.5em;
-padding-bottom:0%;
+padding-bottom:0.5em;
 	
 }
 .wa{
@@ -1260,8 +1341,8 @@ font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
 
-margin-bottom:0.5em;
-padding-top:1em;
+padding-bottom:0.25em;
+padding-top:1.25em;
 }
 .sol{
 font-family: Montserrat;
@@ -1270,8 +1351,8 @@ font-size: 14px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
-margin-bottom:0.5em;
-padding-top:1em;
+padding-bottom:0.1em;
+padding-top:1.35em;
 }
 .tm{
 font-family: Montserrat;
@@ -1281,7 +1362,8 @@ font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
 margin-top:0.25em;
-margin-bottom:2.25em;
+padding-bottom:1.55em;
+
 }
 .dr{
 	width:100%;
