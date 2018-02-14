@@ -1,0 +1,1560 @@
+/* line 2, ../sass/style.scss */
+header {
+  height: 100%;
+}
+/* line 5, ../sass/style.scss */
+header .wrap1 {
+  position: absolute;
+  top: 0%;
+  bottom: 20%;
+  left: 4.5%;
+  right: 4.5%;
+  height: 75%;
+  width: 91%;
+  z-index: 2;
+}
+/* line 16, ../sass/style.scss */
+header .menu {
+  position: absolute;
+  z-index: 5;
+  top: 2%;
+  left: 33.33%;
+}
+/* line 22, ../sass/style.scss */
+header li {
+  padding: 0.25em;
+}
+/* line 25, ../sass/style.scss */
+header .search {
+  position: absolute;
+  right: -10%;
+  top: 0.75em;
+  margin-top: 0%;
+  background-color: transparent;
+  border-color: transparent;
+}
+/* line 33, ../sass/style.scss */
+header .bag {
+  position: absolute;
+  right: -6%;
+  top: 0.255em;
+  margin-top: 1%;
+  background-color: transparent;
+  border-color: transparent;
+}
+/* line 42, ../sass/style.scss */
+header a {
+  margin-left: 15px;
+  text-decoration: none;
+}
+/* line 46, ../sass/style.scss */
+header .nav-link {
+  text-decoration: none;
+}
+/* line 50, ../sass/style.scss */
+header a:visited {
+  color: white;
+  text-decoration: none;
+}
+/* line 54, ../sass/style.scss */
+header a:link {
+  color: #ffffff;
+}
+/* line 58, ../sass/style.scss */
+header a:hover {
+  color: #c7b29a;
+  text-decoration: none;
+}
+/* line 62, ../sass/style.scss */
+header a:focus, header a:active {
+  text-decoration: none;
+}
+/* line 65, ../sass/style.scss */
+header .navbar-toggler {
+  position: absolute;
+  top: 2%;
+  margin-top: 0%;
+  visibility: hidden;
+}
+@media only screen and (max-width: 768px) {
+  /* line 72, ../sass/style.scss */
+  header .navbar-toggler {
+    visibility: visible;
+  }
+  /* line 76, ../sass/style.scss */
+  header .search, header .bag {
+    visibility: hidden;
+  }
+  /* line 79, ../sass/style.scss */
+  header ul {
+    background-color: black;
+  }
+}
+/* line 83, ../sass/style.scss */
+header ul {
+  padding-top: 1em;
+}
+/* line 86, ../sass/style.scss */
+header li {
+  text-decoration: none;
+  list-style: none;
+}
+/* line 90, ../sass/style.scss */
+header .adj {
+  height: 100%;
+}
+/* line 93, ../sass/style.scss */
+header .navbar-collapse {
+  z-index: 4;
+}
+/* line 96, ../sass/style.scss */
+header .icc {
+  height: 2px;
+  width: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background-color: black;
+}
+/* line 104, ../sass/style.scss */
+header a {
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  text-align: left;
+}
+/* line 112, ../sass/style.scss */
+header .owl-stage-outer {
+  height: 100%;
+}
+/* line 115, ../sass/style.scss */
+header .def {
+  padding-top: 5%;
+}
+/* line 118, ../sass/style.scss */
+header .t3 {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 16px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 24px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+/* line 126, ../sass/style.scss */
+header .owl-carousel {
+  height: 100%;
+}
+/* line 129, ../sass/style.scss */
+header .owl-carousel .owl-nav .custom1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/back.png);
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 144, ../sass/style.scss */
+header .owl-carousel .owl-nav .custom2 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-image: url("../images/next.png");
+  width: 32;
+  height: 32px;
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 162, ../sass/style.scss */
+header .owl-carousel .owl-nav {
+  position: absolute;
+  top: 48%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 170, ../sass/style.scss */
+header .owl-carousel .owl-dots {
+  position: absolute;
+  bottom: 2%;
+  left: 45%;
+}
+@media only screen and (max-width: 768px) {
+  /* line 176, ../sass/style.scss */
+  header .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 2%;
+    left: 42%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 184, ../sass/style.scss */
+  header .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 2%;
+    left: 37%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 192, ../sass/style.scss */
+  header .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 2%;
+    left: 35%;
+  }
+}
+/* line 205, ../sass/style.scss */
+header .item1 {
+  height: 100%;
+  background-image: url("../images/grid.png");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 214, ../sass/style.scss */
+header .item2 {
+  height: 100%;
+  background-image: url("../images/slide2.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 223, ../sass/style.scss */
+header .item3 {
+  height: 100%;
+  background-image: url("../images/slide3.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 232, ../sass/style.scss */
+header .item4 {
+  height: 100%;
+  background-image: url("../images/slide4.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 241, ../sass/style.scss */
+header .item5 {
+  height: 100%;
+  background-image: url("../images/slide5.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 257, ../sass/style.scss */
+header .row1 {
+  padding-top: 1.2em;
+}
+/* line 260, ../sass/style.scss */
+header .row2 {
+  padding-top: 6em;
+  margin-bottom: 0%;
+}
+/* line 264, ../sass/style.scss */
+header h1 {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 52px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0%;
+}
+/* line 272, ../sass/style.scss */
+header h3 {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 36px;
+  /* Approximation due to font substitution */
+  font-weight: 500;
+  margin-bottom: 0%;
+}
+@media only screen and (max-width: 636px) {
+  /* line 282, ../sass/style.scss */
+  header h3 {
+    font-size: 20px;
+    padding: 0%;
+    margin: 0.5em;
+  }
+  /* line 288, ../sass/style.scss */
+  header .row2 {
+    padding: 0%;
+    margin: 0%;
+  }
+  /* line 292, ../sass/style.scss */
+  header .row1 {
+    padding: 0%;
+    margin: 0%;
+  }
+  /* line 296, ../sass/style.scss */
+  header .row3 {
+    padding: 0%;
+    margin: 0%;
+  }
+  /* line 301, ../sass/style.scss */
+  header .row5 {
+    padding: 0%;
+    margin: 0%;
+  }
+  /* line 305, ../sass/style.scss */
+  header h1 {
+    font-size: 30px;
+    padding: 0%;
+    margin: 0.5em;
+  }
+  /* line 311, ../sass/style.scss */
+  header .t3 {
+    font-size: 15px;
+    margin: 0.5em;
+    padding: 0%;
+  }
+  /* line 316, ../sass/style.scss */
+  header .wrap1 {
+    left: 12.5%;
+    right: 12.5%;
+    height: 75%;
+    width: 75%;
+  }
+}
+/* line 324, ../sass/style.scss */
+header .row3 {
+  margin-top: 1%;
+}
+/* line 327, ../sass/style.scss */
+header p {
+  color: white;
+  text-align: center;
+}
+/* line 332, ../sass/style.scss */
+header .get {
+  border-radius: 3px;
+  background-color: #998675;
+  border: 0.5px solid transparent;
+  width: 170px;
+  height: 53px;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 23px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+/* line 345, ../sass/style.scss */
+header .row5 {
+  padding-top: 4%;
+}
+
+/* line 349, ../sass/style.scss */
+.item {
+  height: auto;
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+/* line 353, ../sass/style.scss */
+.item .web {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 22px;
+  /* Approximation due to font substitution */
+  font-weight: 600;
+  text-align: center;
+}
+/* line 360, ../sass/style.scss */
+.item .web1 {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 24px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+/* line 369, ../sass/style.scss */
+.item #dash1 {
+  background-color: #f1eee9;
+  width: 70px;
+  height: 3px;
+  margin: auto;
+}
+/* line 376, ../sass/style.scss */
+.item .overlay:hover .web, .item .overlay:hover .ic {
+  color: #c7b299;
+}
+/* line 379, ../sass/style.scss */
+.item .overlay:hover #dash1 {
+  background-color: #c7b299;
+}
+/* line 383, ../sass/style.scss */
+.item .pen {
+  margin: auto;
+}
+/* line 386, ../sass/style.scss */
+.item .padm {
+  padding-bottom: 2em;
+}
+
+/* line 390, ../sass/style.scss */
+.waxom {
+  background-color: #fbfaf8;
+}
+/* line 393, ../sass/style.scss */
+.waxom .wax {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 30px;
+  /* Approximation due to font substitution */
+  font-weight: 600;
+  text-align: center;
+  padding-top: 3em;
+}
+/* line 403, ../sass/style.scss */
+.waxom .wrap1 {
+  padding-top: 3.5%;
+}
+/* line 406, ../sass/style.scss */
+.waxom .inves {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 28px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+
+/* line 416, ../sass/style.scss */
+.multi {
+  background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* line 424, ../sass/style.scss */
+.multi .waxom {
+  font-family: Raleway;
+  color: #c7b299;
+  font-size: 28px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  text-align: left;
+  background-color: transparent;
+  margin-bottom: 0%;
+}
+/* line 436, ../sass/style.scss */
+.multi .m {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 28px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  text-align: left;
+  background: transparent;
+}
+/* line 447, ../sass/style.scss */
+.multi .wrap {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+@media only screen and (max-width: 768px) {
+  /* line 455, ../sass/style.scss */
+  .multi .wrap {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* line 462, ../sass/style.scss */
+  .multi .purchase {
+    margin-top: 20%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 468, ../sass/style.scss */
+  .multi .purchase {
+    margin-top: 45%;
+  }
+}
+/* line 473, ../sass/style.scss */
+.multi button {
+  border-radius: 3px;
+  border: 0.5px solid transparent;
+  background-color: #998675;
+  width: 170px;
+  height: 50px;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 23px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+/* line 486, ../sass/style.scss */
+.multi .forget {
+  font-family: Montserrat;
+  color: #615855;
+  font-size: 18px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 0%;
+}
+
+/* line 495, ../sass/style.scss */
+.latest {
+  padding-top: 5em;
+  padding-bottom: 2.5em;
+}
+/* line 498, ../sass/style.scss */
+.latest p.late {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 30px;
+  /* Approximation due to font substitution */
+  font-weight: 600;
+  text-align: center;
+}
+/* line 508, ../sass/style.scss */
+.latest .wrap {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 5%;
+}
+/* line 514, ../sass/style.scss */
+.latest .late1 {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 28px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+/* line 523, ../sass/style.scss */
+.latest .row4 {
+  padding-bottom: 0.5em;
+}
+/* line 526, ../sass/style.scss */
+.latest .pic {
+  margin: auto;
+  position: relative;
+  transition: transform .2s;
+}
+/* line 532, ../sass/style.scss */
+.latest .zoom {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border: 0.02px solid transparent;
+  visibility: hidden;
+  z-index: 4;
+}
+/* line 544, ../sass/style.scss */
+.latest .lnk {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 20px;
+  color: #998675;
+  background-color: transparent;
+  border: 0.02px solid transparent;
+  visibility: hidden;
+  z-index: 4;
+}
+/* line 555, ../sass/style.scss */
+.latest .picy {
+  padding-bottom: 1.5em;
+}
+/* line 559, ../sass/style.scss */
+.latest .picy:hover .zoom, .latest .picy:hover .lnk {
+  visibility: visible;
+}
+/* line 562, ../sass/style.scss */
+.latest .picy:hover .pisi, .latest .picy:hover .pisi1 {
+  background-color: #362f2d;
+}
+/* line 568, ../sass/style.scss */
+.latest .picy:hover .triangle, .latest .picy:hover .trianle1 {
+  border-bottom: 9px solid #362f2d;
+}
+/* line 573, ../sass/style.scss */
+.latest .pici {
+  margin: auto;
+}
+/* line 578, ../sass/style.scss */
+.latest .pisi {
+  font-family: Montserrat;
+  color: #d1d1d1;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  margin: auto;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+}
+/* line 590, ../sass/style.scss */
+.latest .pisi1 {
+  font-family: Raleway;
+  color: #c7b29a;
+  font-size: 20px;
+  /* Approximation due to font substitution */
+  font-weight: 500;
+  text-align: left;
+  margin: auto;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+/* line 601, ../sass/style.scss */
+.latest .triangle, .latest .triangle1 {
+  position: absolute;
+  left: 10%;
+  top: 66.5%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 9px solid white;
+}
+@media only screen and (max-width: 768px) {
+  /* line 612, ../sass/style.scss */
+  .latest .triangle, .latest .triangle1 {
+    position: absolute;
+    left: 10%;
+    top: 75%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* line 620, ../sass/style.scss */
+  .latest .triangle, .latest .triangle1 {
+    position: absolute;
+    left: 10%;
+    top: 76.5%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* line 628, ../sass/style.scss */
+  .latest .triangle, .latest .triangle1 {
+    position: absolute;
+    left: 10%;
+    top: 75%;
+  }
+}
+@media only screen and (max-width: 325px) {
+  /* line 636, ../sass/style.scss */
+  .latest .triangle, .latest .triangle1 {
+    position: absolute;
+    left: 10%;
+    top: 72%;
+  }
+}
+/* line 644, ../sass/style.scss */
+.latest .list {
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+}
+/* line 649, ../sass/style.scss */
+.latest .but {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 21px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 0.5px solid #efefef;
+}
+@media only screen and (max-width: 425px) {
+  /* line 663, ../sass/style.scss */
+  .latest .but {
+    width: 100%;
+  }
+}
+/* line 669, ../sass/style.scss */
+.latest .buti {
+  border-radius: 3px;
+  border: 0.5px solid #efefef;
+  background-color: #998675;
+  width: 170px;
+  height: 50px;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 23px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+/* line 683, ../sass/style.scss */
+.latest .row12 {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+/* line 688, ../sass/style.scss */
+.latest li {
+  display: inline;
+  padding: 0.5em;
+}
+@media only screen and (max-width: 425px) {
+  /* line 695, ../sass/style.scss */
+  .latest li {
+    display: block;
+    padding-right: 25%;
+    padding-bottom: 2%;
+  }
+}
+/* line 701, ../sass/style.scss */
+.latest .lis {
+  font-size: 10px;
+  color: #8c8c8c;
+  background-color: white;
+  border-radius: 3px;
+  border-size: 0.5px;
+  border-color: #eeeeee;
+}
+/* line 709, ../sass/style.scss */
+.latest button:hover {
+  background-color: #998675;
+  color: white;
+}
+
+/* line 714, ../sass/style.scss */
+.video {
+  background-image: url("../images/photo7.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 10em;
+}
+/* line 724, ../sass/style.scss */
+.video .wax {
+  padding-top: 0%;
+}
+/* line 727, ../sass/style.scss */
+.video .vid {
+  padding-top: 15.5em;
+  margin: auto;
+}
+/* line 731, ../sass/style.scss */
+.video .waxom {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 30px;
+  /* Approximation due to font substitution */
+  font-weight: 500;
+  text-align: center;
+  background-color: transparent;
+  padding-top: 1em;
+}
+/* line 740, ../sass/style.scss */
+.video .sub {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 16px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 28px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+
+/* line 750, ../sass/style.scss */
+.phone {
+  background-color: #fbfaf8;
+  padding-top: 5em;
+}
+/* line 757, ../sass/style.scss */
+.phone .exel {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 30px;
+  /* Approximation due to font substitution */
+  font-weight: 600;
+  text-align: left;
+  padding-top: 1.5em;
+}
+/* line 765, ../sass/style.scss */
+.phone .bul {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 28px;
+  /* Approximation due to font substitution */
+  text-align: left;
+}
+/* line 773, ../sass/style.scss */
+.phone .bulet {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 32px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  padding-left: 1em;
+}
+/* line 782, ../sass/style.scss */
+.phone .ar {
+  margin: auto;
+}
+/* line 786, ../sass/style.scss */
+.phone br {
+  padding: 8%;
+}
+/* line 789, ../sass/style.scss */
+.phone .hl {
+  padding-left: 11%;
+  padding-top: 0.5em;
+}
+
+/* line 794, ../sass/style.scss */
+.car {
+  background-color: #fbfaf8;
+  height: auto;
+  width: 100%;
+}
+/* line 800, ../sass/style.scss */
+.car .car1 {
+  position: relative;
+}
+/* line 808, ../sass/style.scss */
+.car .centre {
+  position: relative;
+  margin: auto;
+  z-index: 2;
+}
+/* line 814, ../sass/style.scss */
+.car .left {
+  position: absolute;
+  left: 0%;
+  z-index: 1;
+  bottom: 0%;
+}
+/* line 821, ../sass/style.scss */
+.car .right {
+  position: absolute;
+  right: 0%;
+  z-index: 1;
+  bottom: 0%;
+}
+
+/* line 833, ../sass/style.scss */
+.recent .post {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 30px;
+  /* Approximation due to font substitution */
+  font-weight: 600;
+  text-align: center;
+  padding-top: 2.5em;
+}
+/* line 841, ../sass/style.scss */
+.recent .wrap {
+  padding-top: 4%;
+}
+/* line 844, ../sass/style.scss */
+.recent .post1 {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 28px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+
+/* line 855, ../sass/style.scss */
+.animate {
+  padding-bottom: 8em;
+  padding-top: 1em;
+}
+/* line 858, ../sass/style.scss */
+.animate button {
+  background-color: white;
+}
+/* line 867, ../sass/style.scss */
+.animate .slic {
+  margin: 0%;
+}
+/* line 870, ../sass/style.scss */
+.animate .slicitem {
+  margin: 0%;
+}
+/* line 873, ../sass/style.scss */
+.animate .an:hover {
+  opacity: 0.5;
+}
+/* line 877, ../sass/style.scss */
+.animate .txt {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 20px;
+  /* Approximation due to font substitution */
+  font-weight: 500;
+  text-align: left;
+  padding-left: 5%;
+  margin: 0%;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+/* line 888, ../sass/style.scss */
+.animate .sub {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 22px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-top: 0%;
+  margin: 0%;
+}
+/* line 901, ../sass/style.scss */
+.animate .dat {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+/* line 908, ../sass/style.scss */
+.animate p.dead {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #363636;
+  width: 50px;
+  height: 20px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  z-index: 2;
+}
+/* line 929, ../sass/style.scss */
+.animate .spt {
+  position: absolute;
+  top: 28px;
+  left: 2%;
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 12px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #252525;
+  width: 50px;
+  height: 15px;
+  padding-top: 0.5em;
+  margin: 0%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+/* line 949, ../sass/style.scss */
+.animate p.rm {
+  font-family: Montserrat;
+  color: #c7b299;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  margin: 0%;
+}
+/* line 961, ../sass/style.scss */
+.animate .slicitem {
+  position: relative;
+  height: auto;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+/* line 967, ../sass/style.scss */
+.animate .slick-list {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+/* line 971, ../sass/style.scss */
+.animate .arr {
+  width: 0;
+  height: 0;
+  border-top: 3.06px solid transparent;
+  border-left: 6.25px solid #c7b299;
+  border-bottom: 3.06px solid transparent;
+  position: absolute;
+  left: 27%;
+  top: 110%;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 982, ../sass/style.scss */
+  .animate .arr {
+    visibility: hidden;
+  }
+}
+/* line 986, ../sass/style.scss */
+.animate .slider {
+  width: 50%;
+  height: 80%;
+}
+/* line 990, ../sass/style.scss */
+.animate .slick-slide {
+  margin: 0px 20px;
+}
+/* line 993, ../sass/style.scss */
+.animate .slick-slide img {
+  width: 100%;
+}
+/* line 996, ../sass/style.scss */
+.animate .slick-prev:before,
+.animate .slick-next:before {
+  color: #eeeeee;
+  width: 1px;
+  height: 1px;
+  z-index: 2;
+}
+/* line 1003, ../sass/style.scss */
+.animate .slick-prev {
+  top: 105%;
+  left: 48%;
+  z-index: 2;
+}
+/* line 1008, ../sass/style.scss */
+.animate .slick-next {
+  right: 48%;
+  top: 105%;
+  z-index: 2;
+}
+@media only screen and (max-width: 1000px) {
+  /* line 1015, ../sass/style.scss */
+  .animate .slick-prev {
+    top: 105%;
+    left: 45%;
+    z-index: 2;
+  }
+  /* line 1020, ../sass/style.scss */
+  .animate .slick-next {
+    right: 45%;
+    top: 105%;
+    z-index: 2;
+  }
+}
+@media only screen and (max-width: 450px) {
+  /* line 1028, ../sass/style.scss */
+  .animate .slick-prev {
+    top: 105%;
+    left: 40%;
+    z-index: 2;
+  }
+  /* line 1033, ../sass/style.scss */
+  .animate .slick-next {
+    right: 40%;
+    top: 105%;
+    z-index: 2;
+  }
+}
+/* line 1039, ../sass/style.scss */
+.animate .slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+/* line 1044, ../sass/style.scss */
+.animate .slick-active {
+  opacity: 1;
+}
+/* line 1048, ../sass/style.scss */
+.animate .slick-active:hover .txt, .animate .slick-active:hover .dat, .animate .slick-active:hover .sub, .animate .slick-active:hover .rm, .animate .slick-active:hover .an {
+  background-color: #362f2d;
+  z-index: 3;
+}
+/* line 1054, ../sass/style.scss */
+.animate .slick-active:hover .txt {
+  color: #c7b299;
+}
+/* line 1057, ../sass/style.scss */
+.animate .slick-active:hover .dead {
+  background-color: #c7b299;
+}
+/* line 1060, ../sass/style.scss */
+.animate .slick-active:hover .spt {
+  background-color: #a48d72;
+}
+/* line 1063, ../sass/style.scss */
+.animate .slick-active:hover .arr {
+  background-color: white;
+  z-index: 4;
+}
+
+/* line 1070, ../sass/style.scss */
+.log {
+  background-image: url("../images/photo14.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+/* line 1082, ../sass/style.scss */
+.log .foot1 {
+  margin: auto;
+}
+/* line 1086, ../sass/style.scss */
+.log .foot2 {
+  margin: auto;
+}
+/* line 1090, ../sass/style.scss */
+.log .foot3 {
+  margin: auto;
+}
+/* line 1094, ../sass/style.scss */
+.log .foot4 {
+  margin: auto;
+}
+@media only screen and (max-width: 320px) {
+  /* line 1099, ../sass/style.scss */
+  .log .foot1, .log .foot2, .log .foot3, .log .foot4 {
+    width: 32%;
+    height: 17.5%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 1108, ../sass/style.scss */
+  .log .foot1, .log .foot2, .log .foot3, .log .foot4 {
+    width: 40%;
+    height: 18%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* line 1117, ../sass/style.scss */
+  .log .foot1, .log .foot2, .log .foot3, .log .foot4 {
+    width: 32%;
+    height: 15%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+  }
+}
+/* line 1127, ../sass/style.scss */
+.log .row1 {
+  padding-top: 10%;
+}
+
+/* line 1131, ../sass/style.scss */
+footer {
+  background-color: #191919;
+  padding-top: 2em;
+}
+/* line 1134, ../sass/style.scss */
+footer .wax {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 34px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  text-align: left;
+}
+/* line 1145, ../sass/style.scss */
+footer .txt {
+  font-family: Montserrat;
+  color: #545454;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 24px;
+  /* Approximation due to font substitution */
+  text-align: left;
+}
+/* line 1154, ../sass/style.scss */
+footer .wrap {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+/* line 1160, ../sass/style.scss */
+footer .read {
+  font-family: Montserrat;
+  color: #d1d1d1;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+}
+/* line 1169, ../sass/style.scss */
+footer .rec {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  text-align: left;
+  padding-top: 0.5em;
+  padding-bottom: 0%;
+}
+/* line 1179, ../sass/style.scss */
+footer .se {
+  font-family: Montserrat;
+  color: #363636;
+  font-size: 12px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  padding-top: 0.25em;
+}
+/* line 1189, ../sass/style.scss */
+footer .sep {
+  font-family: Montserrat;
+  color: #363636;
+  font-size: 12px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  padding-top: 1.2em;
+}
+/* line 1200, ../sass/style.scss */
+footer .lor {
+  font-family: Montserrat;
+  color: #545454;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  margin-top: 0.125em;
+}
+/* line 1209, ../sass/style.scss */
+footer .dash {
+  background-color: #252525;
+  width: 90%;
+  height: 2px;
+}
+/* line 1214, ../sass/style.scss */
+footer .sep1 {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 12px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  padding-top: 1.5em;
+  margin-bottom: 0.125em;
+}
+/* line 1224, ../sass/style.scss */
+footer .dele {
+  font-family: Montserrat;
+  color: #c7b299;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  margin-top: 0.125em;
+}
+/* line 1234, ../sass/style.scss */
+footer .tw {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 24px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  text-align: left;
+  padding-top: 0.5em;
+  padding-bottom: 0%;
+}
+/* line 1244, ../sass/style.scss */
+footer .wa {
+  font-family: Montserrat;
+  color: #545454;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+/* line 1255, ../sass/style.scss */
+footer .mir {
+  font-family: Montserrat;
+  color: #545454;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  margin-bottom: 0.5em;
+  padding-top: 1em;
+}
+/* line 1266, ../sass/style.scss */
+footer .sol {
+  font-family: Montserrat;
+  color: #545454;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  margin-bottom: 0.5em;
+  padding-top: 1em;
+}
+/* line 1276, ../sass/style.scss */
+footer .tm {
+  font-family: Montserrat;
+  color: #363636;
+  font-size: 12px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+  margin-top: 0.25em;
+  margin-bottom: 2.25em;
+}
+/* line 1286, ../sass/style.scss */
+footer .dr {
+  width: 100%;
+  height: 30%;
+  position: relative;
+}
+/* line 1291, ../sass/style.scss */
+footer .dm1 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  padding: 0.25em 0.25em 0.25em 0.25em;
+}
+/* line 1297, ../sass/style.scss */
+footer .dm2 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  padding: 0.375em 0.375em 0.375em 0.375em;
+}
+/* line 1304, ../sass/style.scss */
+footer .dm3 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  padding: 0.375em 0.375em 0.375em 0.375em;
+}
+/* line 1311, ../sass/style.scss */
+footer .dm4 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0.375em 0.375em 0.375em 0.375em;
+}
+/* line 1319, ../sass/style.scss */
+footer .dri {
+  margin: auto;
+}
+
+/* line 1324, ../sass/style.scss */
+.copy {
+  background-color: #111111;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  font-family: Montserrat;
+  color: #545454;
+  font-size: 13px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: left;
+}
+
+/* line 1336, ../sass/style.scss */
+.banner {
+  background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+/* line 1344, ../sass/style.scss */
+.banner li {
+  display: inline-block;
+  padding-left: 2.75em;
+  padding-right: 2.75em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+/* line 1352, ../sass/style.scss */
+.banner ul {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+@media only screen and (max-width: 1100px) {
+  /* line 1359, ../sass/style.scss */
+  .banner ul {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* line 1366, ../sass/style.scss */
+  .banner ul {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* line 1373, ../sass/style.scss */
+  .banner li {
+    display: block;
+  }
+}
+@media only screen and (max-width: 650px) {
+  /* line 1379, ../sass/style.scss */
+  .banner ul {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* line 1386, ../sass/style.scss */
+  .banner .icon4 {
+    margin-left: 42.5%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* line 1393, ../sass/style.scss */
+  .banner .icon1, .banner .icon2, .banner .icon3, .banner .icon4 {
+    width: 14%;
+    height: 4%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* line 1401, ../sass/style.scss */
+  .banner .dash {
+    visibility: hidden;
+  }
+}
+/* line 1406, ../sass/style.scss */
+.banner .pr {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 48px;
+  /* Approximation due to font substitution */
+  font-weight: 200;
+  line-height: 36px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  margin-top: 0.5em;
+}
+/* line 1415, ../sass/style.scss */
+.banner .pr1 {
+  font-family: Montserrat;
+  color: #c7b299;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+/* line 1423, ../sass/style.scss */
+.banner .def {
+  padding-left: 0.5%;
+}
+/* line 1426, ../sass/style.scss */
+.banner .dash {
+  background-color: #ffffff;
+  width: 20px;
+  height: 1px;
+  position: relative;
+  margin: auto;
+  padding-top: 1%;
+}
