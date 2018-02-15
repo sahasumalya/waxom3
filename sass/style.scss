@@ -344,6 +344,9 @@ font-weight: 1000;
 line-height: 23px;/* Approximation due to font substitution */
 text-align: center;
 }
+.get:hover{
+  background-color: #4e3427;
+}
 .row5{
 	padding-top:4%;
 }
@@ -400,7 +403,7 @@ color:  #555555;
 font-size: 30px;/* Approximation due to font substitution */
 font-weight: 600;
 text-align: center;
-padding-top:3em;
+padding-top:2.25em;
 }
 .wrap1{
 padding-top:3.5%;
@@ -494,6 +497,9 @@ line-height: 23px;/* Approximation due to font substitution */
 text-align: center;
 vertical-align:center;
 }
+button:hover{
+  transform:scale(1.2);
+}
 .forget{
 font-family: Montserrat;
 color:  #615855;
@@ -506,12 +512,14 @@ margin-bottom:0%;
 .latest{
   padding-top:5em;
   padding-bottom:2.5em;
-	p.late{
+	h1.late{
 font-family: Raleway;
 color:  #555555;
 font-size: 30px;/* Approximation due to font substitution */
 font-weight: 600;
 text-align: center;
+padding-bottom:0.3em;
+padding-top:0%;
 
 
 
@@ -522,7 +530,7 @@ text-align: center;
 	padding-bottom:5%;
 }
 
-.late1{
+h.late1{
 	font-family: Montserrat;
 color:  #8c8c8c;
 font-size: 16px;/* Approximation due to font substitution */
@@ -542,8 +550,8 @@ text-align: center;
 
 .zoom{
   position:absolute;
-  top:50%;
-  left:60%;
+  top:32%;
+  left:50%;
   font-size:20px;
   color:white;
   background-color:transparent;
@@ -554,8 +562,8 @@ text-align: center;
 
 .lnk{
   position:absolute;
-  top:50%;
-  left:40%;
+  top:32%;
+  left:38%;
   font-size:20px;
   color: #998675;
   background-color:transparent;
@@ -585,7 +593,8 @@ text-align: center;
     color:white;
   }
   .pic{
-    filter:contrast(75%);
+    filter:contrast(95%);
+    filter:brightness(75%);
   }
   .triangle,.trianle1{
     border-bottom: 9px solid #362f2d;
@@ -607,6 +616,8 @@ text-align: left;
 margin:auto;
 padding-bottom:1em;
 padding-left:1.5em;
+background-color:  #fbfaf8;
+
 }
 
 .pisi1{
@@ -618,6 +629,8 @@ text-align: left;
 margin:auto;
 padding-top:1em;
 padding-left:1em;
+background-color:  #fbfaf8;
+
 }
 
 .triangle,.triangle1{
@@ -715,6 +728,11 @@ line-height: 23px;/* Approximation due to font substitution */
 text-align: center;
 font-style:bold;
 }
+.buti:hover{
+  transform:scale(1.2);
+  color:grey;
+  background-color:white;
+}
 .row12{
   padding-top:2em;
   padding-bottom:4em;
@@ -752,6 +770,7 @@ padding:0.25em;
 	background-size:cover;
 	max-width: 100%;
   height:auto;
+  padding-top:15em;
   padding-bottom:13em;
     .v{
    
@@ -768,10 +787,12 @@ padding-top:1.3em;
     .wax{
     padding-top:0%;
     }
-    .vid{
-    padding-top:14em;
+   .con{
+
+   }
+   .play{
     margin:auto;
-    }
+   }
     .waxom{
   font-family: Raleway;
 color:  #ffffff;
@@ -779,7 +800,8 @@ font-size: 30px;/* Approximation due to font substitution */
 font-weight: 500;
 text-align: center;
 background-color: transparent;
-padding-top:1em;
+padding-top:1.5em;
+padding-bottom:0.3em;
     }
     .sub{
 
@@ -799,6 +821,9 @@ height:auto;
 	
 	
 	}
+  li{
+    list-style:none;
+  }
   .row1{
     display:flex;
     flex-wrap: wrap;
@@ -809,9 +834,10 @@ height:auto;
     vertical-align:center;
   }
   .spsl{
-    
+    position:relative;
   }
   .tes{
+    position:absolute;
     height:auto;
     margin:0%;
     transform: translate(0,33.33%);
@@ -824,13 +850,13 @@ height:auto;
       padding-bottom:4em;
     }
   }
-	.exel{
+	h.exel{
 font-family: Raleway;
 color:  #555555;
 font-size: 30px;/* Approximation due to font substitution */
 font-weight: 600;
 text-align: left;
-padding-bottom:0.5em;
+padding-bottom:1em;
 	}
 	.bul{
 font-family: Montserrat;
@@ -840,6 +866,7 @@ font-weight: 300;
 line-height: 28px;/* Approximation due to font substitution */
 text-align: left;
 padding-bottom:0.5em;
+padding-top:1.25em;
 	}
 	.bulet{
 font-family: Montserrat;
@@ -848,17 +875,17 @@ font-size: 16px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 32px;/* Approximation due to font substitution */
 text-align: left;
-padding-left:1em;
+padding-left:2em;
 	}
 	.ar{
 	
-	margin:auto;
+	
 	}
 	br{
 	padding:8%;
 	}
 	.hl{
-	padding-left:11%;
+	padding-left:3.3em;
   padding-top:0.5em;
 	}
 }
@@ -867,6 +894,7 @@ padding-left:1em;
   
   background-color:  #fbfaf8;
   height:auto;
+  padding-top:2.25em;
   width:100%;
   .car1{
     position:relative;
@@ -901,31 +929,33 @@ padding-left:1em;
 }
 
 .recent{
-.post{
+h1.post{
 font-family: Raleway;
 color:  #555555;
 font-size: 30px;/* Approximation due to font substitution */
 font-weight: 600;
 text-align: center;
-padding-top:2.5em;
+padding-top:2em;
+padding-bottom:0.3em;
 }
 .wrap{
 	padding-top:4%;
 }
-.post1{
+h.post1{
   font-family: Montserrat;
 color:  #8c8c8c;
 font-size: 16px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 28px;/* Approximation due to font substitution */
 text-align: center;
+margin:0%;
 
 }
 
 }
 .animate{
   padding-bottom:8em;
-  padding-top:1em;
+  padding-top:2em;
 button{
 	background-color:white;
 
@@ -975,6 +1005,9 @@ margin:0%;
         height:auto;
     	
 
+    }
+    a{
+       color: #c7b299;
     }
    p.dead{
        position:absolute;
@@ -1119,6 +1152,9 @@ margin:0%;
       .txt,.dat,.sub,.rm,.an{
     	background-color: rgba(54,47,45,1);
     	z-index: 3;
+    }
+    .sub{
+      color:white;
     }
      .an{
       opacity:0.5;
@@ -1413,6 +1449,18 @@ font-size: 13px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
+ a{
+    text-decoration:none;
+    color:  #545454;
+  }
+  a:hover{
+    color:  #c7b299;
+
+  }
+  .sv{
+    color:  #959595;
+
+  }
 
 }
 .banner{
@@ -1513,4 +1561,5 @@ position:relative;
 margin:auto;
 padding-top:1%;
 	}
+
 }
