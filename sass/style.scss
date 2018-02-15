@@ -280,7 +280,49 @@ font-size: 36px;/* Approximation due to font substitution */
 font-weight: 500;
 margin-bottom:0%;
 }
-@media only screen and (max-width: 636px) {
+@media only screen and (max-width: 636px ) {
+    h3{
+      
+      font-size:20px;
+      padding:0%;
+      margin:0.5em;
+    }
+    .row2{
+      padding:0%;
+      margin:0%;
+    }
+    .row1{
+      padding:0%;
+      margin:0%;
+    }
+    .row3{
+      padding:0%;
+      margin:0%;
+
+    }
+    .row5{
+      padding:0%;
+      margin:0%;
+    }
+    h1{
+      font-size:30px;
+      padding:0%;
+      margin:0.5em;
+
+    }
+    .t3{
+      font-size:15px;
+      margin:0.5em;
+      padding:0%;
+    }
+    .wrap1{
+      left:12.5%;
+    right:12.5%;
+    height:75%;
+    width:75%;
+    }
+  }
+  @media only screen and (max-height: 500px ) {
     h3{
       
       font-size:20px;
@@ -323,6 +365,7 @@ margin-bottom:0%;
     }
   }
   
+  
 .row3{
 	margin-top:1%;
 }
@@ -348,8 +391,20 @@ text-align: center;
   background-color: #4e3427;
 }
 .row5{
-	padding-top:4%;
+  padding-top:4%;
 }
+@media only screen and (max-height:450px)
+  {
+    .get{
+      width:85px;
+      height:26.5px;
+      font-size:7px;
+    }
+    .row5{
+      padding-top:0%;
+    }
+  }
+
 }
 .item{
 height:auto;
@@ -815,7 +870,6 @@ text-align: center;
 .phone{
 background-color:  #fbfaf8;
 padding-top:5em;
-height:auto;
 	.pn{
 	
 	
@@ -823,31 +877,33 @@ height:auto;
   li{
     list-style:none;
   }
-  .row1{
-    display:flex;
-    flex-wrap: wrap;
-
-  }
+  
   .spcl{
-    display:table-cell;
-    vertical-align:center;
+    
+  }
+  .con{
+    height:auto;
   }
   .spsl{
-    position:relative;
+    
   }
   .tes{
-    position:absolute;
     height:auto;
     margin:0%;
     transform: translate(0,33.33%);
     padding:0%;
   }
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 990px) {
     .tes{
       transform:translate(0,0);
       padding-top:4em;
       padding-bottom:4em;
+      
+      
     }
+   .spsl{
+    
+   }
   }
 	h.exel{
 font-family: Raleway;
