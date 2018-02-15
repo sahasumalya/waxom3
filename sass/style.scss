@@ -699,7 +699,7 @@ width: 0;
     	
 position:absolute;
 left:10%;
-top:75%;
+top:66%;
     }
 	}
   @media only screen and (max-width: 425px) {
@@ -707,7 +707,15 @@ top:75%;
       
 position:absolute;
 left:10%;
-top:76.5%;
+top:67%;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .triangle,.triangle1{
+      
+position:absolute;
+left:10%;
+top:62%;
     }
   }
 @media only screen and (max-width: 375px) {
@@ -715,7 +723,7 @@ top:76.5%;
       
 position:absolute;
 left:10%;
-top:75%;
+top:66%;
     }
   }
   @media only screen and (max-width: 325px) {
@@ -723,7 +731,7 @@ top:75%;
       
 position:absolute;
 left:10%;
-top:72%;
+top:61.5%;
     }
   }
 
