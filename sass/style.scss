@@ -630,7 +630,6 @@ margin:auto;
 padding-top:1em;
 padding-left:1em;
 background-color:  #fbfaf8;
-
 }
 
 .triangle,.triangle1{
@@ -1240,19 +1239,33 @@ margin:0%;
 }
 footer{
 	background-color:  #191919;
-  padding-top:6.5em;
+  padding-top:5em;
+  padding-bottom:5em;
 	.wax{
     font-family: Raleway;
 color:  #ffffff;
 font-size: 34px;/* Approximation due to font substitution */
 font-weight: 400;
 text-align: left;
+padding-top:0%;
     }
     ul{
       list-style:none;
-      padding:0%;
+      padding-left:0%;
+      padding-top:1em;
       margin:0%;
     }
+    li{
+      margin:0%;
+      padding:0%;
+    }
+    .colu{
+      padding-top:1.3em;
+    }
+    .colu1{
+      padding-top:0.55em;
+    }
+
     .logo{
       
     
@@ -1285,7 +1298,7 @@ text-align: left;
     font-family: Raleway;
 color:  #ffffff;
 font-size: 24px;/* Approximation due to font substitution */
-font-weight: 700;
+font-weight: 650;
 text-align: left;
 padding-top:0.5em;
 padding-bottom:0.5em;
@@ -1319,13 +1332,15 @@ font-size: 14px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
-margin-top:0.125em;
-padding-bottom:1.5em;
+margin-top:0%;
+padding-bottom:0.75em;
     }
     .dash{
 background-color:  #252525;
 width: 90%;
 height: 2px;
+padding:0%;
+margin:0%;
     }
     .sep1{
 font-family: Montserrat;
@@ -1334,7 +1349,7 @@ font-size: 12px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
-padding-top:1.5em;
+padding-top:0.5em;
 margin-bottom:0.125em;
     }
     .dele{
@@ -1346,13 +1361,13 @@ font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
 margin-top:0.125em;
-padding-bottom:1.5em;
+padding-bottom:1em;
     }
 .tw{
  font-family: Raleway;
 color:  #ffffff;
 font-size: 24px;/* Approximation due to font substitution */
-font-weight: 700;
+font-weight: 650;
 text-align: left;
 padding-top:0.5em;
 padding-bottom:0.5em;
@@ -1366,7 +1381,6 @@ font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
 
-margin-bottom:0.5em;
 	
 }
 .mir{
@@ -1378,7 +1392,11 @@ line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
 
 padding-bottom:0.25em;
-padding-top:1.25em;
+padding-top:1em;
+}
+p{
+  padding:0%;
+  margin:0%;
 }
 .sol{
 font-family: Montserrat;
@@ -1387,8 +1405,7 @@ font-size: 14px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
-padding-bottom:0.1em;
-padding-top:1.35em;
+padding-top:0.5em;
 }
 .tm{
 font-family: Montserrat;
@@ -1397,8 +1414,8 @@ font-size: 12px;/* Approximation due to font substitution */
 font-weight: 300;
 line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
-margin-top:0.25em;
-padding-bottom:1.55em;
+padding-bottom:1.1em;
+padding-top:0%;
 
 }
 .dr{
