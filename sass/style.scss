@@ -16,138 +16,29 @@ header {
   .menu{
     position:absolute;
     z-index:5;
-    top:2%;
-    left:33.33%;
+    width:100%;
+    top:0%;
+    left:0%;
   }
-  @media only screen and (max-width:1250px){
-    .menu{
-      left:20%;
-    }
-  }
+ 
    
   li{
     padding:0.25em;
   }
   .search{
-  position:absolute;
-  right:4.5em;
-  top:1.5em;
-  margin-top:0%;
+  
   background-color:transparent;
   border-color:transparent;
   z-index:5;
 }
 .bag{
-  position:absolute;
-  right:7.5em;
-  top:1.5em;
+  
   background-color:transparent;
   border-color:transparent;
   z-index:5;
 }
-@media only screen and (max-width:1024px){
-    .menu{
-      left:20%;
-    }
-    .search{
-      right:0em;
-    }
-    .bag{
-      right:3em;
-    }
-  }
-@media only screen and (max-width:801px)
-{
-  .menu{
-    left:23%;
-  }
-}
-@media only screen and (max-width:950px)
-{
-  .menu{
-    top:4%;
-  }
-  .bag,.search{
-    top:1em;
-  }
-}
 
-  a{
-	margin-left:15px;
-  text-decoration:none;
-}
-.nav-link{
-  text-decoration:none;
-}
-
-a:visited{
-  color:white;
-  text-decoration:none;
-}
-a:link {
-    color: #ffffff;
-}
-
-a:hover{
-  color: #c7b29a;
-  text-decoration:none;
-}
-a:focus,a:active{
-  text-decoration:none;
-}
-.navbar-toggler{
-  position:absolute;
-  top:2%;
-  right:1em;
-  margin-top:0%;
-  visibility: hidden;
-}
-@media only screen and (max-width: 767px) {
-    .navbar-toggler{
-      visibility: visible;
-      position:absolute;
-      top:0.7em;
-      left:5em;
-
-  }
-  .menu{
-    top:2.5%;
-    left:33.3%;
-  }
-  
-  ul{
-    background-color:black;
-  }
-}
-@media only screen and (max-width: 768px)
-{
-  .menu{
-    top:1%;
-  }
-}
-
-ul{
-  padding-top:1em;
-}
-li{
-  text-decoration:none;
-  list-style:none;
-}
-.adj{
-  height:100%;
-}
-.navbar-collapse{
-  z-index:4;
-}
-  .icc{
-  height:2px;
-  width:10px;
-  margin-top:1px;
-  margin-bottom:1px;
-  background-color:black;
-}
-
-a{
+a.nav-link{
 font-family: 'Montserrat';
 color:  #ffffff;
 font-size: 14px;/* Approximation due to font substitution */
@@ -155,6 +46,52 @@ font-weight: 300;
 text-align: left;
 
 }
+a.navlink:visited{
+  color:white;
+  text-decoration:none;
+}
+a.navlink:link {
+    color: #ffffff;
+}
+
+
+a.navlinl:focus,a.navlink:active{
+  text-decoration:none;
+}
+.navbar-inverse .navbar-nav>li>a {
+     font-family: 'Montserrat';
+color:  #ffffff;
+font-size: 14px;/* Approximation due to font substitution */
+font-weight: 300;
+text-align: left;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #c7b29a;
+  text-decoration:none;
+}
+@media only screen and (max-width:1024px){
+    
+  }
+  .navbar-inverse{
+    border-color:transparent;
+    background-color:transparent;
+
+  }
+@media only screen and (max-width:767px)
+{
+  .navbar-collapse{
+  
+    background-color:black;
+  }
+  
+}
+@media only screen and (max-width:950px)
+{
+  
+  
+}
+
+
   .owl-stage-outer{
   	height:100%;
   }
@@ -1566,21 +1503,21 @@ padding-top:0%;
 	width:50%;
 	height:50%;
 	position:absolute;
-	padding:0.25em 0.25em 0.25em 0.25em;
+	padding:1% 0.5% 1% 0.5%;
 }
 .dm2{
 	width:50%;
 	height:50%;
 	position:absolute;
 	left:50%;
-	padding:0.375em 0.375em 0.375em 0.375em;
+	padding:1% 0.5% 1% 0.5%;
 }
 .dm3{
 	width:50%;
 	height:50%;
 	position:absolute;
 	top:50%;
-	padding:0.375em 0.375em 0.375em 0.375em;
+	padding:1% 0.5% 1% 0.5%;
 }
 .dm4{
 	width:50%;
@@ -1588,7 +1525,7 @@ padding-top:0%;
 	position:absolute;
 	top:50%;
 	left:50%;
-	padding:0.375em 0.375em 0.375em 0.375em;
+	padding:1% 0.5% 1% 0.5%;
 }
 .dri{
 	margin:auto;
