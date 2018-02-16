@@ -19,13 +19,19 @@ header {
     top:2%;
     left:33.33%;
   }
+  @media only screen and (max-width:1250px){
+    .menu{
+      left:20%;
+    }
+  }
+   
   li{
     padding:0.25em;
   }
   .search{
   position:absolute;
   right:4.5em;
-  top:2em;
+  top:1.5em;
   margin-top:0%;
   background-color:transparent;
   border-color:transparent;
@@ -34,11 +40,36 @@ header {
 .bag{
   position:absolute;
   right:7.5em;
-  top:1em;
-  margin-top:1%;
+  top:1.5em;
   background-color:transparent;
   border-color:transparent;
   z-index:5;
+}
+@media only screen and (max-width:1024px){
+    .menu{
+      left:20%;
+    }
+    .search{
+      right:0em;
+    }
+    .bag{
+      right:3em;
+    }
+  }
+@media only screen and (max-width:801px)
+{
+  .menu{
+    left:23%;
+  }
+}
+@media only screen and (max-width:950px)
+{
+  .menu{
+    top:4%;
+  }
+  .bag,.search{
+    top:1em;
+  }
 }
 
   a{
@@ -79,6 +110,10 @@ a:focus,a:active{
       left:5em;
 
   }
+  .menu{
+    top:2.5%;
+    left:33.3%;
+  }
   
   ul{
     background-color:black;
@@ -86,8 +121,8 @@ a:focus,a:active{
 }
 @media only screen and (max-width: 768px)
 {
-  .search,.bag{
-    visibility:hidden;
+  .menu{
+    top:1%;
   }
 }
 
@@ -277,6 +312,7 @@ font-size: 36px;/* Approximation due to font substitution */
 font-weight: 500;
 margin-bottom:0%;
 }
+
 @media only screen and (max-width: 636px ) {
     h3{
       
@@ -386,6 +422,11 @@ text-align: center;
 }
 .get:hover{
   background-color: #4e3427;
+  transform: rotateY(360deg);
+  transition-duration: 2s;
+
+  
+
 }
 .row5{
   padding-top:4%;
@@ -549,8 +590,20 @@ line-height: 23px;/* Approximation due to font substitution */
 text-align: center;
 vertical-align:center;
 }
+@keyframes example {
+    from {transform:none;}
+    to {transform:skew(30deg);}
+}
+@keyframes examplee{
+    from {transform:skew(30deg);}
+    to {transform:skew(0deg);}
+}
+
 button:hover{
-  transform:scale(1.2);
+  animation-name: example;
+  animation-duration: 3s;
+  animation-name:examplee;
+  animation-duration: 2s;
 }
 .forget{
 font-family: Montserrat;
@@ -694,22 +747,9 @@ width: 0;
 	border-right:10px solid transparent;
 	border-bottom: 9px solid white;
 }
-@media only screen and (max-width: 768px) {
-    .triangle,.triangle1{
-    	
-position:absolute;
-left:10%;
-top:66%;
-    }
-	}
-  @media only screen and (max-width: 425px) {
-    .triangle,.triangle1{
-      
-position:absolute;
-left:10%;
-top:67%;
-    }
-  }
+
+ 
+   
   @media only screen and (max-width: 1024px) {
     .triangle,.triangle1{
       
@@ -718,12 +758,28 @@ left:10%;
 top:62%;
     }
   }
-@media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 768px) {
     .triangle,.triangle1{
       
 position:absolute;
 left:10%;
 top:66%;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .triangle,.triangle1{
+      
+position:absolute;
+left:10%;
+top:67%;
+    }
+  }
+@media only screen and (max-width: 375px) {
+    .triangle,.triangle1{
+      
+position:absolute;
+left:10%;
+top:65.5%;
     }
   }
   @media only screen and (max-width: 325px) {
@@ -818,10 +874,30 @@ padding:0.25em;
  border-size:0.5px;
  border-color:#eeeeee;
  }
+ @keyframes ani{
+  from{
+    transform:scale(1);
+  }
+  to{
+    transform:scale(1.2);
+  }
+ }
+ @keyframes anii{
+  from{
+    transform:scale(1.2);
+  }
+  to{
+    transform:scale(1);
+  }
+ }
  button:hover{
  background-color:#998675;
  color:white;
- }
+ animation-name:ani;
+ animation-duration: 2s;
+ animation-name: anii;
+ animation-duration: 2s;
+}
 }
 .video{
 	background-image:url("../images/photo7.png");
@@ -936,6 +1012,7 @@ font-weight: 300;
 line-height: 32px;/* Approximation due to font substitution */
 text-align: left;
 padding-left:2em;
+margin:0%;
 	}
 	.ar{
 	
@@ -948,6 +1025,19 @@ padding-left:2em;
 	padding-left:3.3em;
   padding-top:0.5em;
 	}
+  li{
+    background-image:url("../images/01.png");
+    background-repeat: no-repeat;
+    background-position:left center;
+
+  }
+    @media only screen and (max-width: 525px) {
+    li{
+     background-position:left top;
+      
+      
+    }
+}
 }
 .car{
   
@@ -1301,6 +1391,10 @@ padding-top:0%;
     li{
       margin:0%;
       padding:0%;
+      border-top:1px solid #252525;
+    }
+    li:nth-child(1){
+      border:none;
     }
     .colu{
       padding-top:1.3em;
@@ -1513,16 +1607,41 @@ line-height: 20px;/* Approximation due to font substitution */
 text-align: left;
  a{
     text-decoration:none;
+    font-family: Montserrat;
     color:  #545454;
+    font-size: 13px;/* Approximation due to font substitution */
+    font-weight: 300;
+    line-height: 20px;/* Approximation due to font substitution */
+    text-align: left;
   }
   a:hover{
     color:  #c7b299;
 
   }
-  .sv{
-    color:  #959595;
-
+  ul{
+    padding:0%;
+    margin:0%;
   }
+  li{
+    display:inline;
+    list-style:none;
+    padding-left:0.7em;
+    padding-right:0.7em;
+    padding-top:0%;
+    padding-bottom:0%;
+    border-left:1px solid #545454;
+  }
+  li:nth-child(1){
+      border:none;
+      padding-left:0%;
+    }
+    .wax{
+      color:#959595;
+
+    }
+    
+
+  
 
 }
 .banner{
