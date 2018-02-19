@@ -145,10 +145,15 @@ visibility:hidden;
   .logo,.wax{
     visibility:hidden;
   }
+  
+}
+@media only screen and (max-width:1015px) and (min-height:300px)
+{
   .logo1,.wax1{
     visibility:visible;
   }
 }
+
 @media only screen and (max-width:768px)
 {
   .wax1{
@@ -165,6 +170,7 @@ visibility:hidden;
     visibility:hidden;
   }
 }
+
 @media only screen and (max-width:767px)
 {
   .menu{
