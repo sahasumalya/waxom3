@@ -15,7 +15,7 @@ header {
   }
   .menu{
     position:absolute;
-    z-index:5;
+    z-index:56;
     width:100%;
     top:0%;
     left:0%;
@@ -69,10 +69,43 @@ text-align: left;
   color: #c7b29a;
   text-decoration:none;
 }
-.search1,.bag1{
+.search1{
+  background-color:transparent;
+  border-color:transparent;
+  position:absolute;
+  top:1%;
+  right:8%;
   visibility:hidden;
+  z-index:50;
+}
+.bag1{
+  background-color:transparent;
+  border-color:transparent;
+  position:absolute;
+  top:1%;
+  right:2%;
+  visibility:hidden;
+  z-index:50;
+}
+.logo1{
+position:absolute;
+z-index:51;
+top:10%;
+left:45%;
+visibility:hidden;
+}
+.wax1{
+  position:absolute;
+z-index:51;
+top:20%;
+left:42%;
+visibility:hidden;
+
 }
 @media only screen and (max-width:1024px){
+    li{
+      padding:0%;
+    }
     
   }
   .navbar-inverse{
@@ -86,8 +119,9 @@ text-align: left;
   
     background-color:black;
   }
-  
+
 }
+
 @media only screen and (max-width:768px)
 {
   
@@ -97,10 +131,38 @@ text-align: left;
   .search,.bag{
     visibility:hidden;
   }
-  .search1{
+  .search1,.bag1{
     visibility:visible;
-    position:absolute;
-    right:0%;
+    
+  }
+  .wax1{
+    visibility:hidden;
+  }
+}
+
+@media only screen and (max-width:1015px)
+{
+  .logo,.wax{
+    visibility:hidden;
+  }
+  .logo1,.wax1{
+    visibility:visible;
+  }
+}
+@media only screen and (max-width:768px)
+{
+  .wax1{
+    visibility:hidden;
+  }
+}
+@media only screen and (max-width:650px)
+{
+  .logo1{
+    top:1%;
+    left:43%;
+  }
+  .wax1{
+    visibility:hidden;
   }
 }
 @media only screen and (max-width:767px)
@@ -111,7 +173,7 @@ text-align: left;
   .search,.bag{
     visibility:visible;
   }
-  .search1{
+  .search1,.bag1{
     visibility:hidden;
   }
 
